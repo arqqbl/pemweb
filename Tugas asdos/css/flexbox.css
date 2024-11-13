@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: gray;
+    color: rgb(30, 24, 24);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    color: rgb(6, 4, 4);
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    margin: 2rem;
+}
+
+aside {
+    background-color: gray;
+    padding: 1rem;
+    width: 25%;
+    color: black;
+    text-align: center;
+}
+
+aside .box {
+    background-color: pink;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    border-radius: 10px;
+}
+
+main {
+    background-color: pink;
+    padding: 1rem;
+    flex-grow: 1;
+    color: black;
+    text-align: center;
+}
+
+.main-boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.main-boxes .box {
+    background-color: gray;
+    padding: 50px;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
